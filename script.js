@@ -1,4 +1,4 @@
-var a = 10;
+/* var a = 10;
 var b = 15;
 
 var c = a + b;
@@ -44,7 +44,7 @@ console.log(i);
 var a = 4;
 var b = 4;
 
-console.log( a != b );
+console.log( a != b ); */
 
 
 
@@ -134,6 +134,68 @@ if (idade >= 75) {
   alert("ficaremos felizes em te atender quando você for maior de idade");
 } else alert("o campo nao foi preenchido corretamente");
 */
+
+
+/*var idade = 26;
+
+/*idade >= 18 ? console.log("pode") : console.log("nao pode");*/
+
+
+/*var pode = idade >= 18 ? false : true;
+
+console.log(pode);*/
+
+
+
+var nota1 = 5.0;
+var nota2 = 8.0;
+
+var media = (nota1 + nota2) / 2;
+
+
+var conceito = ""
+
+if (media >= 8) {
+
+
+  conceito = "Ótimo";
+}
+else if (media >= 6.5) {
+
+  conceito = "Bom";
+
+} else {
+
+  conceito = "Regular";
+
+}
+
+conceito = "Mais ou menos"
+
+console.log(media);
+console.log(conceito);
+
+
+switch (conceito) {
+
+  case "Ótimo":
+      console.log("Parabéns, você é um ótimo estudante!")
+      break;
+
+  case "Bom":
+      console.log("Você está quase perfeito!")
+      break;
+  case "Regular":
+      console.log("Estude mais um pouco...")
+      break;
+  default:
+      console.log("Houve algum erro!")
+      break;        
+
+}
+
+
+
 
 
 
