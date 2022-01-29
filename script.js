@@ -147,7 +147,7 @@ console.log(pode);*/
 
 
 
-var nota1 = 5.0;
+/*var nota1 = 5.0;
 var nota2 = 8.0;
 
 var media = (nota1 + nota2) / 2;
@@ -170,7 +170,7 @@ else if (media >= 6.5) {
 
 }
 
-conceito = "Mais ou menos"
+
 
 console.log(media);
 console.log(conceito);
@@ -192,7 +192,38 @@ switch (conceito) {
       console.log("Houve algum erro!")
       break;        
 
+}*/
+
+
+
+/*console.log("===============");
+console.log("Sorteio Loteria");
+console.log("===============");
+
+var num = 1;
+var qtNumSortear = 6;
+var resultado = "Números sorteados:\n| ";
+var numSorteado = 0;
+
+while (num <= qtNumSortear) {
+    numSorteado = parseInt(Math.random() * 100);
+
+    if (numSorteado <= 60) {
+        console.log(numSorteado);
+        resultado = resultado + numSorteado + " | ";
+        num++;
+    }
+
 }
+
+console.log("===============");
+console.log(resultado);*/
+
+
+
+
+
+
 
 
 
