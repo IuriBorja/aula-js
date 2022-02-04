@@ -220,10 +220,26 @@ console.log("===============");
 console.log(resultado);*/
 
 
+var aluno = ["Maria", "José", "Antônio", "Ana"];
 
+function mediaAnual(n1, n2){
+  var nota1 = n1;
+  var nota2 = n2;
 
+  var media = (nota1 + nota2)/2;
 
+  return media;
+}
 
+aluno[0] = [aluno[0], mediaAnual(7,9)];
+aluno[1] = [aluno[1], mediaAnual(5,6)];
+aluno[2] = [aluno[2], mediaAnual(10,9.5)];
+aluno[3] = [aluno[3], mediaAnual(3,10)];
+
+console.log(aluno[0][0] + " teve média anual de: " + aluno[0][1]);
+console.log(aluno[1][0] + " teve média anual de: " + aluno[1][1]);
+console.log(aluno[2][0] + " teve média anual de: " + aluno[2][1]);
+console.log(aluno[3][0] + " teve média anual de: " + aluno[3][1]);
 
 
 
